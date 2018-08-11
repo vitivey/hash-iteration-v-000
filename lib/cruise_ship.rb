@@ -9,7 +9,7 @@
 def select_winner(passengers)
   # add the code snippet here!
   passengers.each do |key, value|
-    if value.first=="A"
+    if value[0]=="A"
       return value
     end
   end
