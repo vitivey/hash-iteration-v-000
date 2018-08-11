@@ -8,4 +8,8 @@
 
 def select_winner(passengers)
   # add the code snippet here!
+  passengers.each do |key, value|
+    if value.first="A"
+      return value 
+  end
 end
